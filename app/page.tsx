@@ -8,7 +8,7 @@ const frameMetadata = getFrameMetadata({
     }
   ],
   // choosing the inital image
-  image: `${process.env.NEXT_PUBLIC_BASE_URL}/launch.png`,
+  image: `${process.env.NEXT_PUBLIC_BASE_URL}/launch1.png`,
   // post_url tells the frame where to send the metadata, and in this case, what the id is
   post_url: `${process.env.NEXT_PUBLIC_BASE_URL}/api/run?id=1`,
 });
