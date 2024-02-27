@@ -31,7 +31,8 @@ const id = data.untrustedData.buttonIndex;*/
     <meta property="fc:frame" content="vNext" />
     <meta property="fc:frame:image" content="${process.env.NEXT_PUBLIC_BASE_URL}/edit.png" />
     <meta property="fc:frame:button:1" content="Check it out" />
-    <meta property="fc:frame:link" content="https://oku.trade/app" />
+    <meta property="fc:frame:button:1:action" content="link" />
+    <meta property="fc:frame:button:1:target" content="https://oku.trade/app" />
   </head></html>`);
   } 
 }
